@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OBMC Sample Page</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+        <style>
+        
+        .hero-section {
+            background: url('school-bg.jpg') center/cover no-repeat;
+            padding: 140px 20px;
+            color: white;
+            position: relative;
+            text-shadow: 2px 2px 10px rgba(0,0,0,0.7);
+        }
+
+        
+        .hero-section::before {
+            content: "";
+            position: absolute;
+            top: 0; left: 0;
+            width: 100%; height: 100%;
+            background: rgba(0,0,0,0.45);
+        }
+
+        .hero-section .container {
+            position: relative;
+            z-index: 2;
+        }
+
+        
+        .info-card {
+            border-radius: 14px;
+            overflow: hidden;
+        }
+
+        .campus-img {
+            border-radius: 10px;
+            width: 100%;
+            height: 180px;
+            object-fit: cover;
+        }
+
+        
+
+    </style>
+
+<nav class="navbar navbar-expand-sm navbar-dark bg-dark p-4">
+
+<div class="container-fluid">
+
+<a class="navbar-brand" href="index.html"><img src="obmc-logo.png" class="img-fluid d-flex align-items-center" style="height: 50px"></a>
+
+<a class="navbar-brand" href="index.html"><img src="obmc-logo-2.png" class="img-fluid d-block mx-auto" style="height: 50px"></a>
+
+<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
+    <span class="navbar-toggler-icon"></span>
+</button>
+
+        <div class="collapse navbar-collapse text-center" id="mynavbar">
+            <ul class="navbar-nav me-3 ms-auto mb-2 mb-lg-0">
+
+                <li class="nav-item">
+                    <a class="nav-link fw-bold text-primary" href="index.html">About Us</a>
+                </li>
+
+                <hr class="text-light my-1">
+
+                <li class="nav-item">
+                    <a class="nav-link unselected" href="page3.html">Courses</a>
+                </li>
+
+                <hr class="text-light my-1">
+
+                <li class="nav-item">
+                    <a class="nav-link unselected" href="enroll.html">Enroll Now</a>
+                </li>
+
+                <hr class="text-light my-1">
+
+                 <li class="nav-item">
+                    <a class="nav-link unselected" href="contact.html">Contact Us</a>
+                </li>
+
+                <hr class="text-light my-1">
+
+                 <li class="nav-item">
+                    <a class="nav-link unselected" href="about.html">Group Members</a>
+                </li>
+
+            </ul>
+
+ <form class="d-flex">
+ <input class="form-control me-2" type="text" placeholder="Search">
+ <button class="btn btn-info" type="button">🔎</button>
+ </form>
+
+        </div>
+
+ </div>
+
+</nav>
+
+
+<section class="hero-section text-center">
+    <div class="container">
+        <h1 class="display-4 fw-bold">Operation Brotherhood Montessori Center</h1>
+        <p class="lead">Seipsum Facit Persona</p>
+        <p>Man makes himself.</p>
+    </div>
+</section>
+
+
+<div class="container my-5">
+    <h2 class="text-center mb-4">What We Offer</h2>
+
+    <div class="row g-4">
+
+        <div class="col-md-4">
+            <div class="card info-card shadow">
+                <img src="img1.jpg" class="card-img-top" alt="">
+                <div class="card-body">
+                    <h5 class="card-title">Quality Education</h5>
+                    <p>
+                        We provide an academic program that helps students grow in critical thinking, creativity,
+                        and problem solving. Our teachers guide students with passion and patience.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-4">
+            <div class="card info-card shadow">
+                <img src="img2.jpg" class="card-img-top" alt="">
+                <div class="card-body">
+                    <h5 class="card-title">Modern Facilities</h5>
+                    <p>
+                        Our campus includes digital tools, safe classrooms, and comfortable spaces for learning and growth.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-4">
+            <div class="card info-card shadow">
+                <img src="img3.jpg" class="card-img-top" alt="">
+                <div class="card-body">
+                    <h5 class="card-title">Development</h5>
+                    <p>
+                        We offer clubs, sports, and activities that build discipline, teamwork, and confidence.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+
+<div class="container my-5">
+    <h2 class="text-center mb-4">Our Campuses</h2>
+
+    <div class="row row-cols-2 row-cols-md-5 g-4 justify-content-center">
+
+        <div class="col text-center">
+            <img src="campus1.png" class="campus-img">
+            <div class="fw-bold mt-2">Angeles</div>
+        </div>
+
+        <div class="col text-center">
+            <img src="campus2.png" class="campus-img">
+            <div class="fw-bold mt-2">Fairview</div>
+        </div>
+
+        <div class="col text-center">
+            <img src="campus3.png" class="campus-img">
+            <div class="fw-bold mt-2">Greenhills</div>
+        </div>
+
+        <div class="col text-center">
+            <img src="bestcampus.png" class="campus-img">
+            <div class="fw-bold mt-2">Las Piñas</div>
+        </div>
+
+        <div class="col text-center">
+            <img src="campus5.png" class="campus-img">
+            <div class="fw-bold mt-2">Sta. Ana</div>
+        </div>
+
+    </div>
+</div>
+
+
+<div class="container my-5">
+    <div class="card shadow text-center p-4">
+        <h4 class="fw-bold text-primary">Advancing the Montessori Way</h4>
+        <p>At OBMC, we follow the Montessori philosophy developed by Maria Montessori.</p>
+        <p>We emphasize independence, responsibility, and respect for the child's growth.</p>
+        <p>Children learn through exploration, repetition, communication, and hands-on experience.</p>
+    </div>
+
+    <div class="row text-center g-4 mt-4 justify-content-center">
+        <div class="col-6 col-md-3"><img src="bnw1.png" class="img-fluid rounded"></div>
+        <div class="col-6 col-md-3"><img src="bw2.png" class="img-fluid rounded"></div>
+        <div class="col-6 col-md-3"><img src="bw3.png" class="img-fluid rounded"></div>
+    </div>
+</div>
+
+<br>
+<br>
+<br>
+<br>
+
+
+<footer>
+
+    <div class="container" align="Center">
+      
+     <div class="row">
+        
+        <div class="col-md-4 mt-5 mb-5">
+         
+            <p>© 2025 O.B. Montessori Center</p>
+            <a href="https://obmontessori.edu.ph/obmc-privacy-policy" class="fw-bold text-light" target="_blank">Privacy Policy</a>
+
+        </div>
+        
+        <div class="col-md-4 mb-5 mt-2">
+          
+            <h5>Campus Locations</h5>
+            
+            <a href="https://maps.app.goo.gl/bsw8xAmn7hJQ8xpm6" class="fw-bold text-light" target="_blank">Angeles</a>
+
+            <br>
+
+            <a href="https://maps.app.goo.gl/pxVcieZQQuER2uWE8" class="fw-bold text-light" target="_blank">Fariveiw</a>
+           
+            <br>
+           
+            <a href="https://maps.app.goo.gl/HmuNcUL9gqHskbtZA" class="fw-bold text-light" target="_blank">Greenhills</a>
+           
+            <br>
+           
+            <a href="https://maps.app.goo.gl/acgE4TYnVr8dbyP46" class="fw-bold text-light" target="_blank">Las Piñas</a>
+           
+            <br>
+           
+            <a href="https://maps.app.goo.gl/FcLwnLHnJWM3YRiZ6" class="fw-bold text-light" target="_blank">Sta. Ana</a>
+        
+        </div>
+        
+        <div class="col-md-4 mt-2">
+          
+            <h5>Social Media</h5>
+            
+            <a href="https://www.facebook.com/obmcofficial/" class="fw-bold text-light" target="_blank">Facebook</a>
+
+            <br>
+
+            <a href="https://www.instagram.com/obmontessoriofficial/?hl=en" class="fw-bold text-light" target="_blank">Instagram</a>
+
+            <br>
+
+            <a href="https://x.com/OBMCedu" class="fw-bold text-light" target="_blank">X</a>
+
+            <br>
+
+            <a href="https://www.youtube.com/channel/UCqfx_-uvSz9wJvyQj6KvGFQ" class="fw-bold text-light" target="_blank">Youtube</a>
+
+        </div>
+    
+</div>  
+
+</footer>
+
+</body>
+</html>
